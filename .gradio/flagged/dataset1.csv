@@ -1,0 +1,3 @@
+Query,Agent Mode,output,timestamp
+check cpu usage,auto,"Could not connect to backend. Make sure to run 'python app.py' first!
+Error: HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=5)",2025-08-03 17:33:59.463141
