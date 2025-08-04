@@ -21,12 +21,16 @@ Uses Phi-2 LLM (2.7B parameter model) for decision making
 Maintains conversation history in SQLite database
 Implements semantic search (FAISS + SentenceTransformers) to find relevant context
 Thread-safe design with connection pooling
+
+
 2. Agents
 
 Agent	Function	Tools Used
 Monitoring	Checks CPU/Memory/Disk	psutil
 Log Analyzer	Reads system logs	File I/O
 Incident Responder	Restarts services	subprocess
+
+
 3. LLM Integration Flow
 
 User asks "Why is the system slow?"
