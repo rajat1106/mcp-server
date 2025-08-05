@@ -1,4 +1,4 @@
-Core Concept
+## Core Concept
 
 The system uses an LLM as a "dispatcher" to automatically route user queries to specialized agents that handle different infrastructure tasks (monitoring, logs, incident response). It maintains context across conversations using semantic search.
 
@@ -17,7 +17,7 @@ graph TD
     D --> H[(Context DB)]
 ```
 
-Key Components Explained
+## Key Components Explained
 
 1. MCP (Model Context Protocol)
 
