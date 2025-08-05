@@ -2,6 +2,11 @@ Core Concept
 
 The system uses an LLM as a "dispatcher" to automatically route user queries to specialized agents that handle different infrastructure tasks (monitoring, logs, incident response). It maintains context across conversations using semantic search.
 
+## 🔍 Architecture Overview
+
+This diagram shows the flow of a user query through the system's AI-powered components.
+
+```mermaid
 graph TD
     A[User Query] --> B{Gradio UI}
     B --> C[FastAPI Server]
