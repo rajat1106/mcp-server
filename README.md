@@ -15,6 +15,7 @@ graph TD
     D -->|LLM Decision| F[Log Analyzer]
     D -->|LLM Decision| G[Incident Responder]
     D --> H[(Context DB)]
+```
 
 Key Components Explained
 
